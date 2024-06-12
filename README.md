@@ -1,66 +1,60 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# Project Proposal
 
-## About Laravel
+# Club Unity: A Comprehensive Web Application for University Club Management
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Group Members:
+| Name  | Matric No |
+| ------------- | ------------- |
+| MUHAMMAD ADIB BIN MOHAMAD TAZMI | 2216265 |
+| MUHAMMAD AMIR SYAHMI BIN ROHMAT ROSE | 2215955 |
+| MUHAMMAD IRFAN BIN FAIRUZ AZIM | 2211915 |
+| SOHAN MOHAMMED ISMAIL CHOWDHURY | 2115849 |
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Introduction:
+University clubs and activities may be better managed with the help of Campus Connect, an advanced online tool. Campus Connect's powerful features and user-friendly interface are designed to help students, club administrators, and university stakeholders communicate, coordinate, and organise more easily.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Objective:
+Campus Connect's main goal is to offer a centralised platform administrator to organising events, maintaining memberships, creating clubs, and processing applications, among other areas of university club operations. Campus Connect seeks to enhance efficiency, transparency, and involvement within the university community by digitising and automating key operations.
 
-## Learning Laravel
+## Features and Functionalities:
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### Admin-Side:
+1. **Home Page:**
+   - Display summary of club list and system information.
+2. **Club Management (Module):**
+   - Add, edit, and delete clubs.
+   - View detailed information about each club.
+3. **User Management (Module):**
+   - Add, edit, and delete user.
+   - View detailed information about each user.
+4. **Application Management (Module):**
+   - View all applications submitted across all clubs.
+   - Add, edit, and delete applications submitted by students.
+   - View detailed information about each application.
+6. **Event/Programme Management (Module):**
+   - Add, edit, and delete events or programs organized by clubs.
+   - View detailed information about each event or program.
+7. **Update System Information:**
+   - Allow administrators to update system-wide information or announcements.
+8. **Update Account Details/Credentials:**
+   - Allow administrators to update their account details or credentials.
+9. **Login and Logout:**
+   - Secure login/logout functionality for administrators.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Entity-Relationship Diagram (ERD):
+![ER Diagram](https://github.com/adbtzmi/Project-Proposal/assets/89768879/f3b14456-0ef8-4303-b2b5-946469e10a5d)
 
-## Laravel Sponsors
+## Sequence Diagram:
+![Sequence Diagram](https://github.com/adbtzmi/Project-Proposal/assets/89768879/8975f828-c40d-47d7-9fe4-50b06f7ff7df)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
 
-### Premium Partners
+## References:
+- Markdown Syntax: [GitHub Markdown Guide](https://guides.github.com/features/mastering-markdown/)
+- MVC Architecture: [Link to MVC Documentation](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
+- ERD Design: [Link to ERD Design Principles](https://www.lucidchart.com/pages/er-diagrams)
+- Sequence Diagrams: [Link to Sequence Diagrams Overview](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-sequence-diagram/)
+- ER Diagram : [Link to what is ER Diagram](https://www.lucidchart.com/pages/er-diagrams)
+- UML Sequence Diagram Tutorial: [Link to Sequence Diagram Tutorial](https://www.lucidchart.com/pages/uml-sequence-diagram#:~:text=Sequence%20diagrams%20are%20a%20popular,function%20before%20the%20lifeline%20ends)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
