@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Application;
 use Illuminate\Http\Request;
 
 class ApplicationController extends Controller
@@ -11,7 +12,8 @@ class ApplicationController extends Controller
      */
     public function index()
     {
-        //
+        $applications = Application::all();
+        return view('admin.application.list', compact('applications'));
     }
 
     /**
@@ -19,7 +21,9 @@ class ApplicationController extends Controller
      */
     public function create()
     {
-        //
+        {
+            return view('admin.application.add');
+        }
     }
 
     /**
@@ -27,7 +31,16 @@ class ApplicationController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validated = $request->validate([
+            'name' => 'required|string|max:255',
+            'student_id' => 'required|string|max:255',
+            'club' => 'required|string',
+            'status' => 'required|string',
+        ]);
+
+        Application::create($validated);
+
+        return redirect()->route('admin.application.list')->with('success', 'Application added successfully.');
     }
 
     /**
@@ -41,24 +54,34 @@ class ApplicationController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(string $id)
+    public function edit(Application $application)
     {
-        //
+        return view('admin.application.edit', compact('application'));
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, string $id)
+    public function update(Request $request, Application $application)
     {
-        //
+        $validated = $request->validate([
+            'name' => 'required|string|max:255',
+            'student_id' => 'required|string|max:255' . $application->id,
+            'club' => 'required|string',
+            'status' => 'required|string',
+        ]);
+
+        $application->update($validated);
+
+        return redirect()->route('admin.application.list')->with('success', 'Application updated successfully.');
     }
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(string $id)
+    public function destroy(Application $application)
     {
-        //
+        $application->delete();
+        return redirect()->route('admin.application.list')->with('success', 'Application deleted successfully.');
     }
 }

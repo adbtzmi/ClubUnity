@@ -19,27 +19,25 @@
                     {{-- admin link --}}
                     @if (Auth::user()->usertype == 'admin')
                         
-                    <x-nav-link href="admin/club" :active="request()->routeIs('admin.club')">
+                    <x-nav-link :href="route('admin.club.list')" :active="request()->routeIs('admin.club.list')">
                         {{ __('Club') }}
                     </x-nav-link>
 
-                    <x-nav-link href="admin/application" :active="request()->routeIs('admin.application')">
+                    <x-nav-link :href="route('admin.application.list')" :active="request()->routeIs('admin.application.list')">
                         {{ __('Application') }}
                     </x-nav-link>
 
-                    <x-nav-link href="admin/event" :active="request()->routeIs('admin.event')">
+                    <x-nav-link :href="route('admin.event.list')" :active="request()->routeIs('admin.event.list')">
                         {{ __('Event') }}
                     </x-nav-link>
 
-                    <x-nav-link href="admin/user" :active="request()->routeIs('admin.user')">
-                        {{ __('User') }}
+                    <x-nav-link :href="route('admin.student.list')" :active="request()->routeIs('admin.student.list')">
+                        {{ __('Student') }}
                     </x-nav-link>
-
 
                     @endif
 
                     {{-- user link --}}
-
 
                 </div>
             </div>
