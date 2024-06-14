@@ -60,15 +60,19 @@ Club Unity's main goal is to offer a centralised platform administrator to organ
 
 ### Club Management:
 ![Club Screen]()
+Admin can do CRUD operation which is admin can create, edit, delete the club.
 
 ### Application Management:
 ![Application Screen]()
+Admin can do CRUD operation which is admin can create, edit, delete the application.
 
 ### Event Management:
 ![Event management](image-1.png)
+Admin can do CRUD operation which is admin can create, edit, delete the event.
 
 ### Student Management:
 ![alt text](image-2.png)
+Admin can do CRUD operation which is admin can create, edit, delete the student.
 
 ### Profile:
 ![Profile Screen](image.png)
