@@ -56,19 +56,19 @@ Club Unity's main goal is to offer a centralised platform administrator to organ
 ![Register Screen]()
 
 ### Admin Dashboard:
-![Admin Screen()
+![Admin Screen]()
 
 ### Club Management:
-![Club Screen()
+![Club Screen]()
 
 ### Application Management:
-![Application Screen()
+![Application Screen]()
 
 ### Event Management:
 ![Event management](image-1.png)
 
 ### Student Management:
-![Student Screen()
+![Student Screen]()
 
 ### Profile:
 ![Profile Screen](image.png)
