@@ -49,6 +49,9 @@ Club Unity's main goal is to offer a centralised platform administrator to organ
 
 ## Screen:
 
+### Welcome:
+![alt text](image-3.png)
+
 ### Login:
 ![Login Screen]()
 

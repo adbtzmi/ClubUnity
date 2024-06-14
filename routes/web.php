@@ -11,7 +11,7 @@ use App\Http\Controllers\EventController;
 use App\Http\Controllers\ClubController;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('mainpage');
 });
 
 Route::middleware('auth')->group(function () {

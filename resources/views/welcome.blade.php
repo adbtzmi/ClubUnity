@@ -15,16 +15,25 @@
                 font-family: 'Figtree', sans-serif;
                 margin: 0;
                 padding: 0;
-                background: url('https://news.iium.edu.my/wp-content/uploads/2019/11/96b17d2a3c3713703df33d8785f92d4f15669639031.jpg') no-repeat center center fixed;
+                background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                            url('https://news.iium.edu.my/wp-content/uploads/2019/11/96b17d2a3c3713703df33d8785f92d4f15669639031.jpg') no-repeat center center fixed;
                 background-size: cover;
-                color: #ffffff6f;
+                background-blend-mode: darken; /* This property blends the gradient and the image */
+                color: #ffffff;
+                height: 100%; /* Ensure body takes full height */
             }
-            .header {
+
+            .header, .main, .footer {
+                position: relative;
                 z-index: 1;
+            }
+
+            .header {
                 padding: 10px;
                 display: flex;
                 justify-content: flex-end;
             }
+
             .header a {
                 margin: 0 10px;
                 padding: 10px 20px;
@@ -34,29 +43,29 @@
                 border-radius: 5px;
                 transition: background-color 0.3s, color 0.3s, border-color 0.3s;
             }
+
             .header a:hover {
                 background-color: #007bff;
                 color: white;
                 border-color: #007bff;
             }
+
             .main {
+                display: flex;
+                flex-direction: column;
                 align-items: center;
                 justify-content: center;
-                z-index: 1;
-                margin: 20px;
-                padding: 20px;
-                border-radius: 10px;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-                color: #fff;
+                top: 50%;
+                bottom: 50%;
                 text-align: center;
             }
+
             .footer {
-                z-index: 1;
                 text-align: center;
                 padding: 10px;
-                color: #ffffff;
                 font-size: 0.9em;
             }
+
         </style>
     </head>
     <body>
