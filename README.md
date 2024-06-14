@@ -53,10 +53,10 @@ Club Unity's main goal is to offer a centralised platform administrator to organ
 ![alt text](image-3.png)
 
 ### Login:
-![Login Screen]()
+![alt text](image-4.png)
 
 ### Register:
-![Register Screen]()
+![alt text](image-5.png)
 
 ### Admin Dashboard:
 ![Admin Screen]()

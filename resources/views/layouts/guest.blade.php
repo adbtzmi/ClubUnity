@@ -15,14 +15,14 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="font-sans text-gray-900 antialiased">
-        <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100">
+        <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100" style="background-image: url('https://research.iium.edu.my/image/1661323797-[image]-login-bg.jpg.webp'); background-size: cover; background-repeat: no-repeat;">
             <div>
                 <a href="/">
-                    <h1>Club Unity</h1>
+                    <h1 style="font-size: 2rem; color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Club Unity</h1>
                 </a>
             </div>
 
-            <div class="w-full sm:max-w-md mt-6 px-6 py-4 bg-white shadow-md overflow-hidden sm:rounded-lg">
+            <div class="w-full sm:max-w-md mt-6 px-6 py-10 bg-white shadow-md overflow-hidden sm:rounded-lg" style="opacity: 0.8;">
                 {{ $slot }}
             </div>
         </div>
