@@ -1,5 +1,5 @@
 
-# Project Proposal
+# Final Project
 
 # Club Unity: A Comprehensive Web Application for University Club Management
 
@@ -12,7 +12,7 @@
 | SOHAN MOHAMMED ISMAIL CHOWDHURY | 2115849 |
 
 ## Introduction:
-University clubs and activities may be better managed with the help of Club Unitt, an advanced online tool. Club Unity's powerful features and user-friendly interface are designed to help students, club administrators, and university stakeholders communicate, coordinate, and organise more easily.
+University clubs and activities may be better managed with the help of Club Unity, an advanced online tool. Club Unity's powerful features and user-friendly interface are designed to help students, club administrators, and university stakeholders communicate, coordinate, and organise more easily.
 
 ## Objective:
 Club Unity's main goal is to offer a centralised platform administrator to organising events, maintaining memberships, creating clubs, and processing applications, among other areas of university club operations. Campus Connect seeks to enhance efficiency, transparency, and involvement within the university community by digitising and automating key operations.
