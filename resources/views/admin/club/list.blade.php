@@ -20,6 +20,7 @@
                             <table class="table">
                                 <thead>
                                     <tr>
+                                        <th>No.</th>
                                         <th>Club Name</th>
                                         <th>Club ID</th>
                                         <th>Description</th>
@@ -31,6 +32,7 @@
                                 <tbody>
                                     @foreach($clubs as $club)
                                     <tr>
+                                        <td>{{ $loop->iteration }}</td>
                                         <td>{{ $club->name }}</td>
                                         <td>{{ $club->club_id }}</td>
                                         <td>{{ $club->description }}</td>
@@ -42,7 +44,7 @@
                                             <form action="{{ route('admin.club.delete', $club->id) }}" method="POST" style="display: inline;">
                                                 @csrf
                                                 @method('DELETE')
-                                                <button type="submit" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Delete</button>
+                                                <button type="submit" class="action-button bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Delete</button>
                                             </form>
                                             <a href="{{ route('admin.club.edit', $club->id) }}" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Edit</a>
                                         </td>

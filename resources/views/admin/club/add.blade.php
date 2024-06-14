@@ -30,7 +30,7 @@
                                 </div>
                                 <div class="form-group mb-3">
                                     <label for="image" class="form-label">Image</label>
-                                    <input type="text" class="form-control rounded" id="image" name="image">
+                                    <input type="file" class="form-control rounded" id="image" name="image">
                                 </div>
                                 <div class="">
                                     <button type="submit" class="btn btn-primary ">Add</button> 

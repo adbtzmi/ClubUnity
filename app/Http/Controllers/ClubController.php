@@ -33,7 +33,7 @@ class ClubController extends Controller
             'name' => 'required|string|max:255',
             'club_id' => 'required|string|max:255|unique:clubs',
             'description' => 'required|string',
-            'image' => 'nullable|string',
+            'image' => 'required|image|mimes:jpeg,png,jpg,giv,svg|max:2048',
         ]);
 
         Club::create($validated);

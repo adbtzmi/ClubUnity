@@ -68,7 +68,7 @@ Club Unity's main goal is to offer a centralised platform administrator to organ
 ![Event management](image-1.png)
 
 ### Student Management:
-![Student Screen]()
+![alt text](image-2.png)
 
 ### Profile:
 ![Profile Screen](image.png)

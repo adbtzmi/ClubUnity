@@ -26,11 +26,24 @@
                                 </div>
                                 <div class="form-group mb-3">
                                     <label for="kulliyyah" class="form-label">Kulliyyah (Course)</label>
-                                    <textarea class="form-control rounded" id="kulliyyah" name="kulliyyah" required></textarea>
+                                    <select class="form-control rounded" id="kulliyyah" name="kulliyyah" required>
+                                        <option>KICT</option>
+                                        <option>KENMS</option>
+                                        <option>KOE</option>
+                                        <option>KIRKHS</option>
+                                        <option>AIKOL</option>
+                                        <option>KAED</option>
+                                        <option>KOED</option>
+                                    </select>
                                 </div>
                                 <div class="form-group mb-3">
                                     <label for="year" class="form-label">Year</label>
-                                    <input type="text" class="form-control rounded" id="year" name="year">
+                                    <select class="form-control rounded" id="year" name="year">
+                                        <option>Year 1</option>
+                                        <option>Year 2</option>
+                                        <option>Year 3</option>
+                                        <option>Year 4</option>
+                                    </select>
                                 </div>
                                 <div class="">
                                    <button type="submit" class="btn btn-primary ">Add</button> 

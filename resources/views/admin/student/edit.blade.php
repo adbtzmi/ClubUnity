@@ -27,11 +27,24 @@
                                 </div>
                                 <div class="form-group mb-3">
                                     <label for="kulliyyah" class="form-label">Kulliyyah (Course)</label>
-                                    <textarea class="form-control" id="kulliyyah" name="kulliyyah" required>{{ $student->kulliyyah }}</textarea>
+                                    <select class="form-control" id="kulliyyah" name="kulliyyah" required>{{ $student->kulliyyah }}
+                                        <option>KICT</option>
+                                        <option>KENMS</option>
+                                        <option>KOE</option>
+                                        <option>KIRKHS</option>
+                                        <option>AIKOL</option>
+                                        <option>KAED</option>
+                                        <option>KOED</option>
+                                    </select>
                                 </div>
                                 <div class="form-group mb-3">
                                     <label for="year" class="form-label">Year</label>
-                                    <input type="text" class="form-control" id="year" name="year" value="{{ $student->year }}">
+                                    <select class="form-control" id="year" name="year" value="{{ $student->year }}">
+                                        <option>Year 1</option>
+                                        <option>Year 2</option>
+                                        <option>Year 3</option>
+                                        <option>Year 4</option>
+                                    </select>
                                 </div>
                                 <button type="submit" class="btn btn-primary">Update</button>
                             </form>
