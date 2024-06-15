@@ -4,7 +4,7 @@
             {{ __('Dashboard') }}
         </h2>
     </x-slot>
-  
+
     <div class="py-12">
         <div class="container">
             <div class="row justify-content-center">
@@ -14,7 +14,7 @@
                             <h5 class="mb-0">Add Club</h5>
                         </div>
                         <div class="card-body">
-                            <form method="POST" action="{{ route('admin.club.add') }}">
+                            <form method="POST" action="{{ route('admin.club.store') }}" enctype="multipart/form-data">
                                 @csrf
                                 <div class="form-group mb-3">
                                     <label for="name" class="form-label">Name</label>
@@ -30,11 +30,11 @@
                                 </div>
                                 <div class="form-group mb-3">
                                     <label for="image" class="form-label">Image</label>
-                                    <input type="file" class="form-control rounded" id="image" name="image">
+                                    <input type="file" class="form-control rounded" id="image" name="image" required>
                                 </div>
                                 <div class="">
-                                    <button type="submit" class="btn btn-primary ">Add</button> 
-                                 </div>
+                                    <button type="submit" class="btn btn-primary ">Add</button>
+                                </div>
                             </form>
                         </div>
                     </div>

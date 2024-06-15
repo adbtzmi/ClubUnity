@@ -48,35 +48,35 @@ Club Unity's main goal is to offer a centralised platform administrator to organ
 ## Screen:
 
 ### Welcome:
-![alt text](image-3.png)
+![alt text](Screnshot/image-3.png)
 
 ### Login:
-![alt text](image-4.png)
+![alt text](Screenshot/image-4.png)
 
 ### Register:
-![alt text](image-5.png)
+![alt text](Screenshot/image-5.png)
 
 ### Admin Dashboard:
 ![Admin Screen]()
 
 ### Club Management:
-![Club Screen]()
+![alt text](Screenshot/image-7.png)
 Admin can do CRUD operation which is admin can create, edit, delete the club.
 
 ### Application Management:
-![alt text](image-6.png)
+![alt text](Screenshot/image-8.png)
 Admin can do CRUD operation which is admin can create, edit, delete the application.
 
 ### Event Management:
-![Event management](image-1.png)
+![Event management](Screenshot/image-1.png)
 Admin can do CRUD operation which is admin can create, edit, delete the event.
 
 ### Student Management:
-![alt text](image-2.png)
+![alt text](Screenshot/image-2.png)
 Admin can do CRUD operation which is admin can create, edit, delete the student.
 
 ### Profile:
-![Profile Screen](image.png)
+![Profile Screen](Screenshot/image.png)
 
 
 ## Challenge to develop this system:

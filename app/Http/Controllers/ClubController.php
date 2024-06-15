@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\Club;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
+
 
 class ClubController extends Controller
 {
@@ -33,8 +35,13 @@ class ClubController extends Controller
             'name' => 'required|string|max:255',
             'club_id' => 'required|string|max:255|unique:clubs',
             'description' => 'required|string',
-            'image' => 'required|image|mimes:jpeg,png,jpg,giv,svg|max:2048',
+            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ]);
+
+        if ($request->hasFile('image')) {
+            $imagePath = $request->file('image')->store('images', 'public');
+            $validated['image'] = $imagePath;
+        }
 
         Club::create($validated);
 
@@ -67,13 +74,26 @@ class ClubController extends Controller
             'name' => 'required|string|max:255',
             'club_id' => 'required|string|max:255|unique:clubs,club_id,' . $club->id,
             'description' => 'required|string',
-            'image' => 'nullable|string',
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ]);
+
+        if ($request->hasFile('image')) {
+            // Delete the old image if exists
+            if ($club->image) {
+                Storage::disk('public')->delete($club->image);
+            }
+
+            $imagePath = $request->file('image')->store('images', 'public');
+            $validated['image'] = $imagePath;
+        } else {
+            $validated['image'] = $club->image; // Keep the old image if no new image is uploaded
+        }
 
         $club->update($validated);
 
         return redirect()->route('admin.club.list')->with('success', 'Club updated successfully.');
     }
+
 
     /**
      * Remove the specified resource from storage.

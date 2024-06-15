@@ -7,7 +7,7 @@
 
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="p-8 bg-white border-b border-gray-200 shadow-sm sm:rounded-lg"">
+            <div class="p-8 bg-white border-b border-gray-200 shadow-sm sm:rounded-lg">
                 <p class="text-gray-900">{{ __("This is club management") }}</p>
             </div>
             <br>
@@ -37,7 +37,7 @@
                                         <td>{{ $club->club_id }}</td>
                                         <td>{{ $club->description }}</td>
                                         <td class="border px-4 py-2">
-                                            <img src="{{ $club->image }}" alt="{{ $club->name }}" class="h-10 w-10 object-cover">
+                                            <img src="{{ asset('storage/' . $club->image) }}" alt="{{ $club->name }}" class="h-10 w-10 object-cover">
                                         </td>
                                         <td>{{ $club->created_at }}</td>
                                         <td>
@@ -46,7 +46,7 @@
                                                 @method('DELETE')
                                                 <button type="submit" class="action-button bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Delete</button>
                                             </form>
-                                            <a href="{{ route('admin.club.edit', $club->id) }}" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Edit</a>
+                                            <a href="{{ route('admin.club.edit', $club->id) }}" class="action-button bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Edit</a>
                                         </td>
                                     </tr>
                                     @endforeach
@@ -54,7 +54,7 @@
                             </table>
                         </div>
                         <div class="mt-4">
-                            <a href="{{ route('admin.club.add') }}" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Add Club</a>
+                            <a href="{{ route('admin.club.add') }}" class="action-button bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Add Club</a>
                         </div>
                     </div>
                 </div>
