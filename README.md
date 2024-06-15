@@ -20,14 +20,14 @@ Club Unity's main goal is to offer a centralised platform administrator to organ
 ## Features and Functionalities:
 
 ### Admin-Side:
-1. **Home Page:**
+1. **Dasboard:**
    - Display summary of club list and system information.
 2. **Club Management (Module):**
    - Add, edit, and delete clubs.
    - View detailed information about each club.
 3. **Student Management (Module):**
-   - Add, edit, and delete user.
-   - View detailed information about each user.
+   - Add, edit, and delete student.
+   - View detailed information about each student.
 4. **Application Management (Module):**
    - View all applications submitted across all clubs.
    - Add, edit, and delete applications submitted by students.
@@ -35,11 +35,9 @@ Club Unity's main goal is to offer a centralised platform administrator to organ
 6. **Event/Programme Management (Module):**
    - Add, edit, and delete events or programs organized by clubs.
    - View detailed information about each event or program.
-7. **Update System Information:**
-   - Allow administrators to update system-wide information or announcements.
-8. **Update Account Details/Credentials:**
+7. **Update Account Details/Credentials:**
    - Allow administrators to update their account details or credentials.
-9. **Login and Logout:**
+8. **Login and Logout:**
    - Secure login/logout functionality for administrators.
 
 
