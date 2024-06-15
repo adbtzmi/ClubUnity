@@ -86,3 +86,13 @@ Admin can do CRUD operation which is admin can create, edit, delete the student.
 4. **System Scalability:** Building a scalable system architecture that can handle a growing number of users, clubs, and events without compromising performance.
 5. **Application Logic:** Implementing complex business logic to support various functionalities such as club registration, event management, application processing, and user profile management.
 6. **Security Considerations:** Addressing security vulnerabilities such as SQL injection, cross-site scripting (XSS), and cross-site request forgery (CSRF) to protect the system and its users from malicious attacks.
+
+## Getting Started
+
+### Clone the Git Repository
+
+1. Open your terminal or command prompt.
+2. Navigate to the directory where you want to clone the repository:
+   ```bash
+   cd path/to/your/directory
+   ```
