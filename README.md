@@ -125,9 +125,9 @@ Admin can do CRUD operation which is admin can create, edit, delete the student.
    php artisan db:seed
    ```
 10. Run the npm dev script to compile your assets:
-   ```bash
-   npm run dev
-   ```
+    ```bash
+    npm run dev
+    ```
 11. Start your web server.
    ```bash
    php artisan serve
