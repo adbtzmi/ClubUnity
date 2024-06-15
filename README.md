@@ -68,7 +68,7 @@ Admin can do CRUD operation which is admin can create, edit, delete the club.
 Admin can do CRUD operation which is admin can create, edit, delete the application.
 
 ### Event Management:
-![alt text](Screenshot/event..png)
+![alt text](Screenshot/event.png)
 Admin can do CRUD operation which is admin can create, edit, delete the event.
 
 ### Student Management:
