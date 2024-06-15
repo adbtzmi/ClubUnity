@@ -94,5 +94,41 @@ Admin can do CRUD operation which is admin can create, edit, delete the student.
 1. Open your terminal or command prompt.
 2. Navigate to the directory where you want to clone the repository:
    ```bash
-   cd path/to/your/directory
+   cd C:/xampp/htdocs
+   ```
+3. Clone the repository:
+   ```bash
+   git clone https://github.com/adbtzmi/ClubUnity.git
+   ```
+4. Navigate into the cloned repository directory:
+   ```bash
+   cd ClubUnity
+   ```
+5. Install the necessary dependencies using npm:
+   ```bash
+   npm install
+   ```
+6. Ensure you have set up your database configuration in your Laravel .env file.
+   ```bash
+   cp .env.example .env
+   ```
+7. Run migrations to create the database schema:
+   ```bash
+   php artisan migrate
+   ```
+8. Run migrations to create the database schema:
+   ```bash
+   php artisan migrate
+   ```
+9. Run the seeder to populate the database with sample data:
+   ```bash
+   php artisan db:seed
+   ```
+10. Run the npm dev script to compile your assets:
+   ```bash
+   npm run dev
+   ```
+11. Start your web server.
+   ```bash
+   php artisan serve
    ```
