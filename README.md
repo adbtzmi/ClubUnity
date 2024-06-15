@@ -72,7 +72,7 @@ Admin can do CRUD operation which is admin can create, edit, delete the applicat
 Admin can do CRUD operation which is admin can create, edit, delete the event.
 
 ### Student Management:
-![alt text](Screenshot/image-2.png)
+![alt text](Screenshot/student.png)
 Admin can do CRUD operation which is admin can create, edit, delete the student.
 
 ### Profile:
