@@ -76,7 +76,7 @@ Admin can do CRUD operation which is admin can create, edit, delete the event.
 Admin can do CRUD operation which is admin can create, edit, delete the student.
 
 ### Profile:
-![Profile Screen](Screenshot/image.png)
+![alt text](Screenshot/image.png)
 
 
 ## Challenge to develop this system:
