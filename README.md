@@ -66,7 +66,7 @@ Club Unity's main goal is to offer a centralised platform administrator to organ
 Admin can do CRUD operation which is admin can create, edit, delete the club.
 
 ### Application Management:
-![Application Screen]()
+![alt text](image-6.png)
 Admin can do CRUD operation which is admin can create, edit, delete the application.
 
 ### Event Management:

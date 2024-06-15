@@ -26,11 +26,14 @@
                                 </div>
                                 <div class="mb-3">
                                     <label for="club" class="form-label">Club</label>
-                                    <textarea class="form-control rounded" id="status" name="club" required></textarea>
+                                    <input class="form-control rounded" id="status" name="club" required></input>
                                 </div>
                                 <div class="mb-3">
                                     <label for="status" class="form-label">Status</label>
-                                    <input type="text" class="form-control rounded" id="status" name="status" required>
+                                    <select class="form-control rounded" id="status" name="status">
+                                        <option>Approve</option>
+                                        <option>Reject</option>
+                                    </select>
                                 </div>
                                 <div class="">
                                     <button type="submit" class="btn btn-primary ">Add</button> 
