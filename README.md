@@ -68,7 +68,7 @@ Admin can do CRUD operation which is admin can create, edit, delete the club.
 Admin can do CRUD operation which is admin can create, edit, delete the application.
 
 ### Event Management:
-![Event management](Screenshot/image-1.png)
+![alt text](Screenshot/event.pngevent.png)
 Admin can do CRUD operation which is admin can create, edit, delete the event.
 
 ### Student Management:
@@ -80,3 +80,9 @@ Admin can do CRUD operation which is admin can create, edit, delete the student.
 
 
 ## Challenge to develop this system:
+1. **User Authentication and Authorization:** Implementing secure user authentication and authorization mechanisms to ensure that only authorized users can access the system's functionalities.
+2. **Data Management:** Designing a robust database schema to manage various types of data efficiently, while ensuring data integrity and consistency.
+3. **User Interface Design:** Creating a user-friendly and intuitive interface for administrators to manage clubs, applications, events, and students.
+4. **System Scalability:** Building a scalable system architecture that can handle a growing number of users, clubs, and events without compromising performance.
+5. **Application Logic:** Implementing complex business logic to support various functionalities such as club registration, event management, application processing, and user profile management.
+6. **Security Considerations:** Addressing security vulnerabilities such as SQL injection, cross-site scripting (XSS), and cross-site request forgery (CSRF) to protect the system and its users from malicious attacks.
