@@ -129,6 +129,6 @@ Admin can do CRUD operation which is admin can create, edit, delete the student.
     npm run dev
     ```
 11. Start your web server.
-   ```bash
-   php artisan serve
-   ```
+    ```bash
+    php artisan serve
+    ```
